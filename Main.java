@@ -1,5 +1,9 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+
+testeSimples teste = new testeSimples();
+teste.executar();
+
+System.out.println("imcmonitor,fim");
   }
 }
