@@ -1,4 +1,4 @@
-Class Atleta {
+class Atleta {
 
      private String nome;
     private int idade;
@@ -7,8 +7,8 @@ Class Atleta {
       nome = n;
     }
 
-    public void setIdade(int n) {
-      idade = n;
+    public void setIdade(int i) {
+      idade = i;
     }
 
     public String getNome() {

@@ -1,12 +1,12 @@
 class testeSimples{
 
-public void executar() throw Exception{
+public void executar() {
   
   Atleta atleta = new Atleta();
-  atleta.nome = "Alan vitoriano";
-  alteta.idade = 30;
+  atleta.setNome("Alan vitoriano");
+  atleta.setIdade(24);
 
-  System.out.println("Nome =" +atleta.getNome());
-  System.out.println("Idade = " +atleta.getIdade()); 
+  System.out.println("Nome =" + atleta.getNome());
+  System.out.println("Idade = " + atleta.getIdade()); 
 }
 }
